@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 30vh;
+  width: 35vw;
+}
+
+.speed-count-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: roboto;
+  text-align: center;
+}
+.para {
+  color: #cbd5e1;
+  font-family: roboto;
+  text-align: center;
+}
+
+.button-cont {
+  text-align: center;
+}
+
+.button1 {
+  background-color: #0b69ff;
+  color: #cbd5e1;
+  font-family: roboto;
+  margin-right: 9px;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 8px;
+  margin-top: 11px;
+  cursor: pointer;
+  outline: none;
+}
+.button2 {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: roboto;
+  border: 3px solid #94a3b8;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
